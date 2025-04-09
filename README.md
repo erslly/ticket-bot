@@ -37,6 +37,7 @@ Discord.js kullanılarak oluşturulmuş, kullanıcıların ticket (destek talebi
        "token": "BOT_TOKENİNİZ",
        "clientId": "BOT_CLIENT_ID",
        "guildId": "SUNUCU_ID",
+       "MONGODB_URI":"MONGO DB URLNİZ",
        "ticketLogChannelId": "LOG_KANAL_ID",
        "staffRoleId": "YETKİLİ_ROL_ID",
        "ticketCategories": [
