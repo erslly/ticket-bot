@@ -2,7 +2,6 @@ const { Client, GatewayIntentBits, Partials, Collection } = require('discord.js'
 const fs = require('fs');
 const config = require('./config.json');
 const { connect } = require('mongoose');
-require('dotenv').config();
 
 const client = new Client({
     intents: [
@@ -22,7 +21,7 @@ const eventHandler = require('./handlers/eventHandler');
 
 async function connectToDatabase() {
     try {
-        await connect(process.env.MONGODB_URI || 'MONGO DB URLNİZ');
+        await connect(config.mongodbURI); 
         console.log('MongoDB başarıyla bağlandı!');
     } catch (error) {
         console.error('MongoDB ile bağlanırken bir hata oluştu:', error);
