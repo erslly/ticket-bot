@@ -1,0 +1,41 @@
+{
+    "token": "BOT TOKENİNİZ",
+    "clientId": "BOT CLİENT ID'NİZ",
+    "guildId": "SUNUCUNUZUN ID'Sİ",
+    "ticketLogChannelId": "TİCKETLARIN LOG KANALI",
+    "staffRoleId": "YETKİLİ ID",
+    "ticketCategories": [
+    {
+        "name": "Ticket Oluştur",
+        "value": "general_ticket",
+        "description": "Ticket Oluşturmak için açınız.",
+        "emoji": "👤",
+        "color": "#5865F2",
+        "categoryId": "TİCKETIN AÇILACAĞI KATEGORI"
+    },
+    {
+        "name": "Partnerlik",
+        "value": "partnership",
+        "description": "Partnerlik için açınız.",
+        "emoji": "🤝",
+        "color": "#57F287",
+        "categoryId": "TİCKETIN AÇILACAĞI KATEGORI"
+    },
+    {
+        "name": "Fiyat bilgisi almak istiyorum",
+        "value": "pricing",
+        "description": "Fiyat bilgisi almak için Ticket Açın.",
+        "emoji": "💰",
+        "color": "#FEE75C",
+        "categoryId": "TİCKETIN AÇILACAĞI KATEGORI"
+    },
+    {
+        "name": "Seçenek Sıfırla",
+        "value": "reset_options",
+        "description": "Seçenekleri Sıfırlamanıza Yarar.",
+        "emoji": "🧹",
+        "color": "#ED4245",
+        "categoryId": "TİCKETIN AÇILACAĞI KATEGORI"
+    }
+    ]
+}
