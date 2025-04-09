@@ -22,7 +22,7 @@ const eventHandler = require('./handlers/eventHandler');
 
 async function connectToDatabase() {
     try {
-        await connect(process.env.MONGODB_URI || 'mongodb+srv://erslly:kDi2IoV4nMCaD1bW@cluster0.d32o1.mongodb.net/');
+        await connect(process.env.MONGODB_URI || 'MONGO DB URLNİZ');
         console.log('MongoDB başarıyla bağlandı!');
     } catch (error) {
         console.error('MongoDB ile bağlanırken bir hata oluştu:', error);
