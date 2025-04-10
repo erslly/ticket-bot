@@ -7,8 +7,6 @@ module.exports = {
       client.user.setPresence({
         activities: [{ name: 'Developed by erslly', type: 2 }],
         status: 'online'
-      });
-      
-      console.log(`🎟️  ${client.guilds.cache.size} sunucuda aktif`);
+      });
     }
   };
